@@ -1,18 +1,18 @@
 <!doctype html>
 <html>
   <head>
-    <title>Everyday Fitness | Home</title>
+    <title>Everyday Fitness | Favorites</title>
     <meta name="description" content="A Catalog Of Exercises" />
     <link rel="stylesheet" href="style.css" />
     <script src="data.js"></script>
     <script type="text/javascript" src="favorites-store.js"></script>
     <script type="text/javascript" src="catalog.js"></script>
-    <script type="text/javascript" src="catalog-page.js"></script>
+    <script type="text/javascript" src="favorites-page.js"></script>
   </head>
 
   <body>
     <header class="main-header">
-      <h1 class="title">Everyday Fitness | Home</h1>
+      <h1 class="title">Everyday Fitness | Favorites</h1>
 
       <div class="nav-bar">
         <a href="/">Home</a>
@@ -47,7 +47,7 @@
       <div class="card-content">
         <div class="card-header">
           <h2>Gym Exercise Title</h2>
-          <button id="fav-btn" class="favorite-btn" onclick="favoriteAnExercise(event)">Favorite</button>
+          <button id="fav-btn" class="unfavorite-btn favorite-btn" onclick="favoriteAnExercise(event)">UnFavorite</button>
         </div>
         <ul class="main-list">
           <li id="description">description: </li>
