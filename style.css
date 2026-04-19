@@ -130,3 +130,21 @@ hr {
 .unfavorite-btn {
   background-color: rgb(255, 0, 0);
 }
+
+.about-pg {
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+  width: 750px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 16px;
+  box-shadow: #666;
+}
+
+.main-about {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
